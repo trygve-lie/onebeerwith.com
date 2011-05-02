@@ -72,12 +72,13 @@ header, footer, section, article, nav, aside {
 /* Default values */
 body {
     font-family: DejaVu Sans, Verdana, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    background-color: #666666;
+    font-size: 12px;
+    background-color: #000000;
+    height: 100%;
 }
 
 p {
-    line-height: 20px;
+    line-height: 18px;
 }
 
 
@@ -85,13 +86,18 @@ p {
 
 
 body > header,                      /* Header          */
-body > section,                     /* Page containers  */
+body > div,                     /* Page containers  */
 body > footer {                     /* Footer          */
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    width: 760px;
+    width: 780px;
 }
+
+body > div {
+    background-color: #fff;
+}
+
 
 body > header {
     margin-top: 40px;
@@ -100,33 +106,50 @@ body > header {
 
 body > header h1 {
     font-family: TangerineBold, Helvetica, Arial, sans-serif;
-    font-size: 4em;
-    text-shadow: 2px 2px 2px #333;
+    font-size: 5em;
+    /* text-shadow: 2px 2px 2px #333; */
     color: #fff;
     float: right;
 }
 
-body > section {
+body > div > article {
+    width:              760px;
     height:             425px;
-    margin-top:         10px;
+    margin:         10px 10px 10px 10px;
     border-radius:      10px;
     background-image:   url(../gfx/trygve-lie.jpg);
     background-repeat:  no-repeat;
 }
 
-body > section > h1 {
+body > div > article > h1 {
+    position: relative;
+    top: 300px;
+    font-family: TangerineBold, Helvetica, Arial, sans-serif;
+    font-size: 3.5em;
+    height: 35px;
+    /*
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.5);
+    */
     color: #fff;
     padding: 10px;
 }
 
-body > section > p {
+body > div > article > p {
     position: relative;
-    top: 355px;
+    top: 300px;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px;
     height: 50px;
     border-bottom-left-radius:  10px;
     border-bottom-right-radius: 10px;
+}
+
+body > div > section {
+    float: left;
+    width: 200px;
+    margin:         10px 10px 10px 10px;
+    background-color: red;
 }

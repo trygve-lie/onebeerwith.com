@@ -17,131 +17,162 @@
 .carlsberg,
 .budweiser,
 .heinecken,
-.fosters {display: none;}
+.fosters {
+                        display: none;
+}
 
 body, div, h1, h2, p, header, footer, section, article, nav {
-    margin: 0;
-    padding: 0;
+    margin:             0;
+    padding:            0;
 }
 
 h1, h2 {
-    font-size: 100%;
-    font-weight: normal;
+    font-size:          100%;
+    font-weight:        normal;
 }
 
 
 
 /* HTML5 Shim for older IE */
 header, footer, section, article, nav {
-    display: block;
+    display:            block;
 }
 
 
 
 /* Default values */
 body {
-    font-family: DejaVu Sans, Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family:        DejaVu Sans, Verdana, Arial, Helvetica, sans-serif;
+    font-size:          14px;
 }
 
 p {
-    line-height: 18px;
+    line-height:        21px;
 }
 
 header, article, div, footer {
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    width: 780px;
+    overflow:           hidden;
+    margin-left:        auto;
+    margin-right:       auto;
+    width:              780px;
 }
 
 
 
 header {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    height: 60px;
-    border-bottom: 10px solid #000;
+    margin-top:         30px;
+    margin-bottom:      10px;
+    height:             60px;
+    border-bottom:      10px solid #000;
 }
 
 header h1 {
-    font-family: TangerineBold, Helvetica, Arial, sans-serif;
-    font-size: 5em;
-    float: right;
+    font-family:        TangerineBold, Helvetica, Arial, sans-serif;
+    font-size:          5em;
+    float:              right;
+}
+
+header h1 a {
+    text-decoration:    none;
+    color:              #000;
 }
 
 
 
-article {
-    height:             445px;
-    border-bottom:      10px solid #000;
-    margin-bottom:      15px;
-    background-image:   url(../gfx/trygve-lie.jpg);
+#f > article,
+#a > div {
+    height:             450px;
+    margin-bottom:      10px;
+    background-color:   #99ccff;
     background-repeat:  no-repeat;
 }
 
-article a {
-    text-decoration: none;
-    display: block;
-    height:             435px;
+#f > article a {
+    text-decoration:    none;
 }
 
-article h1 {
-    position: relative;
-    top: 310px;
-    font-family: TangerineBold, Helvetica, Arial, sans-serif;
-    font-size: 4em;
-    height: 35px;
-    color: #fff;
-    padding: 10px;
+#f > article h1 {
+    position:           relative;
+    top:                320px;
+    font-family:        TangerineBold, Helvetica, Arial, sans-serif;
+    font-size:          4em;
+    height:             65px;
+    color:              #fff;
+    padding-left:       10px;
 }
 
-article p {
-    position: relative;
-    top: 310px;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 10px;
-    height: 50px;
+#f > article p {
+    position:           relative;
+    top:                320px;
+    background-color:   #000;
+    background-color:   rgba(0, 0, 0, 0.7);
+    color:              #fff;
+    padding:            10px;
+    height:             45px;
 }
 
-div {
-    border-bottom: 10px solid #000;
+#f > div,
+#a > article {
+    border-top:         10px solid #000;
+    border-bottom:      10px solid #000;
+    margin-top:         10px;
     margin-bottom:      10px;
+    padding-top:        10px;
 }
 
 section {
-    float: left;
-    width: 380px;
+    float:              left;
+    width:              380px;
 }
 
 section ~ section {
-    float: right;
+    float:              right;
 }
 
 section h1 {
-    font-family: TangerineBold, Helvetica, Arial, sans-serif;
-    font-size: 2.8em;
+    font-family:        TangerineBold, Helvetica, Arial, sans-serif;
+    font-size:          2.8em;
 }
 
 section p {
-    margin-bottom: 10px;
+    margin-bottom:      10px;
 }
 
 footer {
-    margin-bottom: 30px;
-    font-size: 0.8em;
-    color: #999;
+    margin-bottom:      30px;
+    font-size:          0.8em;
+    color:              #999;
 }
 
 footer small {
-    width: 80%;
-    float: left;
+    width:              80%;
+    float:              left;
 }
 
 footer nav {
-    width: 20%;
-    float: right;
-    text-align: right;
+    width:              20%;
+    float:              right;
+    text-align:         right;
+}
+
+
+
+#a p {
+    margin-bottom:      10px;
+}
+
+#a article h1 {
+    font-family:        TangerineBold, Helvetica, Arial, sans-serif;
+    font-size:          4em;
+}
+
+#a article h2 {
+    font-family:        TangerineBold, Helvetica, Arial, sans-serif;
+    font-size:          2.2em;
+    margin-top:         20px;
+}
+
+#a > article {
+    border-bottom:      10px solid #000;
+    margin-bottom:      10px;
 }

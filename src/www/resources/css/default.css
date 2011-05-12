@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'TangerineBold';
+    src: url('fonts/tangerine/Tangerine_Bold-webfont.eot');
+    src: url('fonts/tangerine/Tangerine_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tangerine/Tangerine_Bold-webfont.woff') format('woff'),
+         url('fonts/tangerine/Tangerine_Bold-webfont.ttf') format('truetype'),
+         url('fonts/tangerine/Tangerine_Bold-webfont.svg#TangerineBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Reset CSS */
+.ringnes,
+.tuborg,
+.carlsberg,
+.budweiser,
+.heinecken,
+.fosters {display: none;}
+
+body, div, h1, h2, p, header, footer, section, article, nav {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+
+/* HTML5 Shim for older IE */
+header, footer, section, article, nav {
+    display: block;
+}
+
+
+
+/* Default values */
+body {
+    font-family: DejaVu Sans, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    line-height: 18px;
+}
+
+header, article, div, footer {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+}
+
+
+
+header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 60px;
+    border-bottom: 10px solid #000;
+}
+
+header h1 {
+    font-family: TangerineBold, Helvetica, Arial, sans-serif;
+    font-size: 5em;
+    float: right;
+}
+
+
+
+article {
+    height:             445px;
+    border-bottom:      10px solid #000;
+    margin-bottom:      15px;
+    background-image:   url(../gfx/trygve-lie.jpg);
+    background-repeat:  no-repeat;
+}
+
+article a {
+    text-decoration: none;
+    display: block;
+    height:             435px;
+}
+
+article h1 {
+    position: relative;
+    top: 310px;
+    font-family: TangerineBold, Helvetica, Arial, sans-serif;
+    font-size: 4em;
+    height: 35px;
+    color: #fff;
+    padding: 10px;
+}
+
+article p {
+    position: relative;
+    top: 310px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+div {
+    border-bottom: 10px solid #000;
+    margin-bottom:      10px;
+}
+
+section {
+    float: left;
+    width: 380px;
+}
+
+section ~ section {
+    float: right;
+}
+
+section h1 {
+    font-family: TangerineBold, Helvetica, Arial, sans-serif;
+    font-size: 2.8em;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+    font-size: 0.8em;
+    color: #999;
+}
+
+footer small {
+    width: 80%;
+    float: left;
+}
+
+footer nav {
+    width: 20%;
+    float: right;
+    text-align: right;
+}

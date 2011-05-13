@@ -84,7 +84,7 @@ header h1 a {
     height:             450px;
     margin-bottom:      10px;
     background-repeat:  no-repeat;
-    background-image:   url('../gfx/trygve-lie.jpg');
+    background-image:   url('../../mark_boas/trygve-lie.jpg');
 }
 
 #f > article a {

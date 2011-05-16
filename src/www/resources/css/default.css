@@ -81,10 +81,10 @@ header h1 a {
 
 #f > article,
 #a > div {
-    height:             450px;
-    margin-bottom:      10px;
-    background-repeat:  no-repeat;
-    background-image:   url('../../mark_boas/trygve-lie.jpg');
+    height:                 450px;
+    margin-bottom:          10px;
+    background-repeat:      no-repeat;
+    background-position:    center;
 }
 
 #f > article a {
@@ -157,7 +157,10 @@ footer nav {
 
 
 
-#a p {
+
+
+#a article {
+    border-bottom:      10px solid #000;
     margin-bottom:      10px;
 }
 
@@ -172,7 +175,12 @@ footer nav {
     margin-top:         20px;
 }
 
-#a > article {
-    border-bottom:      10px solid #000;
+#a article p {
+    margin-bottom:      10px;
+}
+
+#a article time {
+    display:            block;
+    float:              right;
     margin-bottom:      10px;
 }

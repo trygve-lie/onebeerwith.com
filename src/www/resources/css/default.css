@@ -27,7 +27,6 @@ body, div, h1, h2, p, header, footer, section, article, nav {
 }
 
 h1, h2 {
-    font-size:          100%;
     font-weight:        normal;
 }
 
@@ -43,21 +42,13 @@ header, footer, section, article, nav {
 /* Default values */
 body {
     font-family:        DejaVu Sans, Verdana, Arial, Helvetica, sans-serif;
-    font-size:          14px;
+    font-size:          100%;                                                               /* ~16px; */
+    line-height:        1.6;
 }
 
 p {
-    line-height:        21px;
+    font-size:          0.875em;                                                            /* ~14px; */
 }
-
-header, article, div, footer {
-    overflow:           hidden;
-    margin-left:        auto;
-    margin-right:       auto;
-    width:              780px;
-}
-
-
 
 header {
     margin-top:         30px;
@@ -81,7 +72,7 @@ header h1 a {
 
 #f > article,
 #a > div {
-    height:                 450px;
+    height:                 450px;                                                          /* Overrided in views */
     margin-bottom:          10px;
     background-repeat:      no-repeat;
     background-position:    center;
@@ -183,4 +174,47 @@ footer nav {
     display:            block;
     float:              right;
     margin-bottom:      10px;
+}
+
+
+
+
+/* Variables changing between each view */
+header, article, div, footer {
+    overflow:           hidden;
+    /*
+    margin-left:        auto;
+    margin-right:       auto;
+    */
+
+    width:              780px;
+}
+
+
+@media all and (max-width: 780px) {
+    header, article, div, footer {
+        width:          100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    header, article, div, footer {
+        width:          100%;
+    }
+
+    #f > article,
+    #a > div {
+        height:         277px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    header, article, div, footer {
+        width:          96%;
+    }
+
+    #f > article,
+    #a > div {
+        height:         185px;
+    }
 }

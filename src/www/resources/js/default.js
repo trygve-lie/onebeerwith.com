@@ -76,7 +76,8 @@
 
 
     var setImage = function (element, images, currentImageUrl) {
-        var imageUrl = findImage(images, document.documentElement.clientWidth);
+        // var imageUrl = findImage(images, document.documentElement.clientWidth);
+        var imageUrl = findImage(images, document.defaultView.getComputedStyle(element, null).getPropertyValue('width'));
 
         // Update DOM only when new image needs to be set.
         if( currentImageUrl !== imageUrl) {
@@ -98,6 +99,8 @@
         var currentImage = setImage(e, images, undefined);
 
         window.onresize = function(event) {
+            // console.log(document.defaultView.getComputedStyle(e, null).getPropertyValue('width'));
+            console.log(screen.width);
             currentImage = setImage(e, images, currentImage);
         }
 

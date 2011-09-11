@@ -1,3 +1,8 @@
+/*
+    Compress with: http://www.csscompressor.com/
+*/
+
+
 /* Normalize misc elements */
 body, div, p, header, footer, section, article, nav {
     margin:                 0;
@@ -42,12 +47,21 @@ img {
     background-color:       rgb(250,250,250);
     border:                 1px solid rgb(153,153,153);
     margin-bottom:          1.5em;
-    -webkit-border-radius:  3px;
-    -moz-border-radius:     3px;
     border-radius:          3px;
 }
 
 a {color:                   rgb(70,115,145);}
+
+
+
+/* Page width values */
+.b,
+.m,
+.n,
+.i {
+    margin:                 25px auto 25px auto;
+    width:                  620px;
+}
 
 
 
@@ -94,6 +108,10 @@ article.m header {
     color:                  rgb(51,51,51);
 }
 
+.m p a {
+    text-decoration:        underline;
+    color:                  rgb(70,115,145);
+}
 
 
 /* Navigation  - .n = acronym for "navigation" */
@@ -106,8 +124,6 @@ article.m header {
     padding:                5px 7px 5px 7px;
     color:                  rgb(0,0,0);
     text-decoration:        none;
-    -webkit-border-radius:  3px;
-    -moz-border-radius:     3px;
     border-radius:          3px;
 }
 
@@ -123,16 +139,5 @@ article.m header {
     color:                  rgb(153,153,153);
     font-size:              0.689em;
     line-height:            1.7;
-}
-
-
-
-/* Page width values */
-.b,
-.m,
-.n,
-.i {
-    margin:                 25px auto 25px auto;
-    width:                  620px;
 }
 

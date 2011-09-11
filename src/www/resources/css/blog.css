@@ -1,0 +1,138 @@
+/* Normalize misc elements */
+body, div, p, header, footer, section, article, nav {
+    margin:                 0;
+    padding:                0;
+}
+
+
+
+/* HTML5 Shim for older IE */
+header, section, article, time, nav, footer {
+    display:                block;
+}
+
+
+
+/* Default values */
+body {
+    font-family:            Georgia;
+    font-size:              100%;                                                               /* ~16px; */
+    line-height:            1.5;
+    background-color:       rgb(227, 225, 216);
+}
+
+h1,
+h2 {
+    font-weight:            normal;
+    color:                  rgb(51,51,51);
+    line-height:            1.2;
+    margin:                 0 0 7px;
+}
+
+h1 {                        font-size: 2.1em; }
+h2 {                        font-size: 1.4em; }
+
+p {
+    color:                  rgb(51,51,51);
+    margin-bottom:          1.5em;
+}
+
+img {
+    padding:                4px;
+    background-color:       rgb(250,250,250);
+    border:                 1px solid rgb(153,153,153);
+    margin-bottom:          1.5em;
+    -webkit-border-radius:  3px;
+    -moz-border-radius:     3px;
+    border-radius:          3px;
+}
+
+a {color:                   rgb(70,115,145);}
+
+
+
+/* Page Banner - .b = acronym for "banner" */
+.b {
+    text-align:             center;
+}
+
+.b a {
+    text-decoration:        none;
+    color:                  rgb(51,51,51);
+    font-size:              3.1em;
+}
+
+
+
+/* Main content - .m = acronym for "main" */
+.m header p,
+.m footer p {
+    font-size:              0.875em;
+    margin-bottom:          1em;
+    line-height:            1.4em;
+}
+
+section.m article header,
+article.m header {
+    border-bottom:          1px solid rgb(153,153,153);
+    margin-bottom:          35px;
+}
+
+.m time {
+    position:               relative;
+    top:                    10px;
+    width:                  150px;
+    margin:                 auto;
+    font-size:              0.875em;
+    text-align:             center;
+    color:                  rgb(153,153,153);
+    background-color:       rgb(227, 225, 216);
+}
+
+.m a {
+    text-decoration:        none;
+    color:                  rgb(51,51,51);
+}
+
+
+
+/* Navigation  - .n = acronym for "navigation" */
+.n {
+    text-align:             center;
+}
+
+.n a {
+    background-color:       rgb(204,204,204);
+    padding:                5px 7px 5px 7px;
+    color:                  rgb(0,0,0);
+    text-decoration:        none;
+    -webkit-border-radius:  3px;
+    -moz-border-radius:     3px;
+    border-radius:          3px;
+}
+
+.n a:hover {
+    background-color:       rgb(153,153,153);
+    color:                  rgb(255,255,255);
+}
+
+
+
+/* Document footer - .i = acronym for "information"  */
+.i {
+    color:                  rgb(153,153,153);
+    font-size:              0.689em;
+    line-height:            1.7;
+}
+
+
+
+/* Page width values */
+.b,
+.m,
+.n,
+.i {
+    margin:                 25px auto 25px auto;
+    width:                  620px;
+}
+

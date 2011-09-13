@@ -127,10 +127,17 @@ article.m header {
     color:                  rgb(70,115,145);
 }
 
+.m footer {
+    border-top:             1px solid rgb(153,153,153);
+    padding-top:            25px;
+}
+
 
 /* Navigation  - .n = acronym for "navigation" */
 .n {
     text-align:             center;
+    border-top:             1px solid rgb(153,153,153);
+    padding-top:            25px;
 }
 
 .n a {
@@ -153,5 +160,7 @@ article.m header {
     color:                  rgb(153,153,153);
     font-size:              0.689em;
     line-height:            1.7;
+    border-top:             1px solid rgb(153,153,153);
+    padding-top:            25px;
 }
 

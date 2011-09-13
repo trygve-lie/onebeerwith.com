@@ -9,13 +9,15 @@ p{color:#333;margin-bottom:1.5em}
 img{background-color:#fafafa;border:1px solid #999;border-radius:3px;margin-bottom:1.5em;padding:4px}
 a{color:#467391}
 .b,.m,.n,.i{margin:25px auto;width:620px}
+.b{text-align:center}
 .b a{color:#333;font-size:3.1em;text-decoration:none}
 .m header p,.m footer p{font-size:.875em;line-height:1.4em;margin-bottom:1em}
 section.m article header,article.m header{border-bottom:1px solid #999;margin-bottom:35px}
 .m time{background-color:#e3e1d8;color:#999;font-size:.875em;margin:auto;position:relative;text-align:center;top:10px;width:150px}
 .m a{color:#333;text-decoration:none}
 .m p a{color:#467391;text-decoration:underline}
+.m footer{border-top:1px solid #999;padding-top:25px}
+.n{border-top:1px solid #999;padding-top:25px;text-align:center}
 .n a{background-color:#ccc;border-radius:3px;color:#000;padding:5px 7px;text-decoration:none}
 .n a:hover{background-color:#999;color:#fff}
-.i{color:#999;font-size:.689em;line-height:1.7}
-.b,.n{text-align:center}
+.i{border-top:1px solid #999;color:#999;font-size:.689em;line-height:1.7;padding-top:25px}

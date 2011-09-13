@@ -2,6 +2,20 @@
     Compress with: http://www.csscompressor.com/
 */
 
+/* Tji hi.... ;-) */
+.budweiser,
+.ringnes,
+.tuborg,
+.carlsberg,
+.heineken,
+.corona,
+.sol,
+.stellaartois,
+.fosters,
+.becks {
+    display: none;
+}
+
 
 /* Normalize misc elements */
 body, div, p, header, footer, section, article, nav {

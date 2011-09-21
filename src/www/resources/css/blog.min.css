@@ -6,9 +6,8 @@ h1,h2{color:#333;font-weight:400;line-height:1.2;margin:0 0 7px}
 h1{font-size:2.1em}
 h2{font-size:1.4em}
 p{color:#333;margin-bottom:1.5em}
-img{background-color:#fafafa;border:1px solid #999;border-radius:3px;margin-bottom:1.5em;padding:4px}
+.img{background-color:#fafafa;background-position:50% 50%;background-repeat:no-repeat;border:1px solid #999;border-radius:3px;display:block;height:408px;margin-bottom:1.5em;width:618px}
 a{color:#467391}
-.b,.m,.n,.i{margin:25px auto;width:620px}
 .b{text-align:center}
 .b a{color:#333;font-size:3.1em;text-decoration:none}
 .m header p,.m footer p{font-size:.875em;line-height:1.4em;margin-bottom:1em}
@@ -21,3 +20,8 @@ section.m article header,article.m header{border-bottom:1px solid #999;margin-bo
 .n a{background-color:#ccc;border-radius:3px;color:#000;padding:5px 7px;text-decoration:none}
 .n a:hover{background-color:#999;color:#fff}
 .i{border-top:1px solid #999;color:#999;font-size:.689em;line-height:1.7;padding-top:25px}
+.b,.m,.n,.i{margin:25px auto;width:620px}
+@media all and (max-width: 620px) {
+.b,.m,.n,.i{width:90%}
+.img{height:300px;width:auto}
+}

@@ -56,26 +56,19 @@ p {
     margin-bottom:          1.5em;
 }
 
-img {
-    padding:                4px;
+.img {
+    display:                block;
+    width:                  618px;
+    height:                 408px;
     background-color:       rgb(250,250,250);
     border:                 1px solid rgb(153,153,153);
     margin-bottom:          1.5em;
     border-radius:          3px;
+    background-repeat:      no-repeat;
+    background-position:    50% 50%;
 }
 
 a {color:                   rgb(70,115,145);}
-
-
-
-/* Page width values */
-.b,
-.m,
-.n,
-.i {
-    margin:                 25px auto 25px auto;
-    width:                  620px;
-}
 
 
 
@@ -164,3 +157,29 @@ article.m header {
     padding-top:            25px;
 }
 
+
+
+/* Page width values */
+.b,
+.m,
+.n,
+.i {
+    margin:                 25px auto 25px auto;
+    width:                  620px;
+}
+
+
+@media all and (max-width: 620px) {
+    .b,
+    .m,
+    .n,
+    .i {
+        width:              90%;
+    }
+
+
+    .img {
+        width:                  auto;
+        height:                 300px;
+    }
+}

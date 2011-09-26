@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>One Beer With</title>
+    <link href="http://www.onebeerwith.com/" />
+    <updated>2011-09-21T12:00:00Z</updated>
+    <author>
+        <name>Trygve Lie</name>
+    </author>
+    <id>http://www.onebeerwith.com/</id>
+
+    <entry>
+        <title>One beer with Arne Martin Aurlien</title>
+        <link href="http://www.onebeerwith.com/arne_martin_aurlien/" />
+        <id>http://www.onebeerwith.com/arne_martin_aurlien/</id>
+        <updated>2011-09-21T12:00:00Z</updated>
+        <summary>Mobile web developer, based in Trondheim, Norway, doing both front-end and back-end development. With a track record of somewhere among 400 and 500 tasted beer types just tasting became not enough and brewing became a hobby. He's now the proud keeper of the first price in last years Norwegian Christmas beer competition.</summary>
+    </entry>
+
+    <entry>
+        <title>One beer with Mark Boas</title>
+        <link href="http://www.onebeerwith.com/mark_boas/" />
+        <id>http://www.onebeerwith.com/mark_boas/</id>
+        <updated>2011-09-13T12:00:00Z</updated>
+        <summary>Web developer, enthusiastic for new and open web technologies and work for Happyworm Ltd which love most forms of audio and created jPlayer. Mark lives in a town called San Casciano In Val Di Pesa in the heart of wine growing country just outside Florence. Despite that he has a passion for good beer.</summary>
+    </entry>
+
+</feed>
